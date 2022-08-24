@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(61, 94, 94);
+  margin-top: 150px;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 50px;
+  background-color: aliceblue;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 3px rgb(32, 32, 32);
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+  border-radius: 4px;
+}
+
+#button {
+  display: inline-block;
+  background-color: rgb(9, 22, 207);
+  color: white;
+  padding: 6px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#button:hover {
+  opacity: 0.6;
+}
+
+ul {
+  margin-left: 20px;
+  font-weight: border;
+}
+ul li {
+  padding: 5px;
+  color: rgb(8, 8, 8);
+  font-weight: bolder;
+  list-style: none;
+}
+span {
+  display: none;
+}
+.strike span {
+  display: inline-block;
+  color: red;
+  font-size: 10px;
+  margin-left: 50px;
+}
+
+ul li:nth-child(even) {
+  background-color: rgb(47, 39, 49);
+  color: white;
+  font-weight: bold;
+}
+
+ul li.strike:before {
+  content: "✓";
+  position: absolute;
+  color: rgb(19, 18, 18);
+  height: 10px;
+  width: 7px;
+  left: 160px;
+  list-style: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}

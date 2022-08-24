@@ -1,0 +1,15 @@
+#div1 {
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: auto;
+  padding-left: 12px;
+  position: relative;
+}
+
+p:first-child {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 150px;
+}
